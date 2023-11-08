@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formularz danych studenta</title>
+
+</head>
+
+<body>
+    <h1>Wprowadz dane studenta</h1>
+    <form id="studentForm" action="main.php" method="post">
+        <label for="firstName">Imie:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Nazwisko:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="scholarship">Stypendium:</label>
+        <input type="checkbox" id="scholarship" name="scholarship"><br>
+
+        <label for="semester">Semestr:</label>
+        <input type="number" id="semester" name="semester" required><br>
+
+        <input type="submit" value="Dodaj studenta">
+
+    </form>
+
+</body>
+
+</html>
